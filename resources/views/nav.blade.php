@@ -12,9 +12,6 @@
 			<a class="nav-link co-nav-link active" aria-current="page" href="{{route('index')}}">Inicio</a>
 			</li>
 			<li class="nav-item">
-			<a class="nav-link co-nav-link active" aria-current="page" href="{{route('contact')}}">Nosotros</a>
-			</li>
-			<li class="nav-item">
 				<a class="nav-link co-nav-link" aria-current="page" href="{{ route('servicesinfo')}}">
 					Servicios
 				</a>

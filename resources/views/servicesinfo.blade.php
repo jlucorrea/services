@@ -13,9 +13,7 @@
 						<div class="card-body">
 							<h5 class="card-title">{{ $service->title }}</h5>
 							<p class="card-text">
-							{{-- {{ $service->title }} --}}
-							This is a wider card with supporting text below as a natural lead-in to
-							additional content. This content is a little bit longer.
+							{{ $service->description }}
 							</p>
 						</div>
 						<div class="card-footer text-center">

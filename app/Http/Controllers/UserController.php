@@ -56,6 +56,7 @@ class UserController extends Controller
 		}
         return redirect()->route('users.index');
     }
+	
 	public function destroy($id)
     {
         User::find($id)->delete();
